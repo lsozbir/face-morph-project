@@ -15,7 +15,7 @@ Requirements
 - deepface 0.0.93
 
 Links that helped me with this project:
-https://learnopencv.com
-https://docs.opencv.org/4.x/index.html
-https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker
-https://github.com/fabridigua/FaceMask
+- https://learnopencv.com
+- https://docs.opencv.org/4.x/index.html
+- https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker
+- https://github.com/fabridigua/FaceMask
