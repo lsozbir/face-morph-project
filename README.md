@@ -13,3 +13,9 @@ Requirements
 - opencv-python-headless 4.10.0.84
 - scipy 1.14.1
 - deepface 0.0.93
+
+Links that helped me with this project:
+https://learnopencv.com
+https://docs.opencv.org/4.x/index.html
+https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker
+https://github.com/fabridigua/FaceMask
