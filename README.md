@@ -20,3 +20,4 @@ Links that helped me with this project:
 - https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker
 - https://github.com/fabridigua/FaceMask
 - https://github.com/pjbelo/mediapipe-js-demos
+- https://github.com/serengil/deepface
