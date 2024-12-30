@@ -19,3 +19,4 @@ Links that helped me with this project:
 - https://docs.opencv.org/4.x/index.html
 - https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker
 - https://github.com/fabridigua/FaceMask
+- https://github.com/pjbelo/mediapipe-js-demos
