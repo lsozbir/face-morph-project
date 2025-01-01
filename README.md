@@ -2,10 +2,12 @@
 
 Face morphing implementation for privacy protection
 
-Instructions:
-run main.py for a demo of face morphing to protect your privacy!
+<b>Instructions:</b>
+1) Run main.py (you need to be in the face-morph-project file) for a demo of face morphing to protect your privacy!
+2) Press lowercase 'q' to end the camera capture
+3) If desired, you can change input of the implementation on lines 12 and 13 of main.py
 
-Requirements
+<b>Requirements</b>
 - A webcam
 - Python 3.12.7
 - mediapipe 0.10.18
@@ -14,7 +16,7 @@ Requirements
 - scipy 1.14.1
 - deepface 0.0.93
 
-Links that helped me with this project:
+<b>Links that helped me with this project:</b>
 - https://learnopencv.com
 - https://docs.opencv.org/4.x/index.html
 - https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker
