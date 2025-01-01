@@ -8,6 +8,10 @@ import DelaunayTriangulation
 import Warp
 import FaceMorpher
 
+# !!!CHANGE THESE TO MODIFY THE INPUTS!!!
+alpha = 0.5
+image_file_path = 'images/obama.jpg'
+
 # OpenCV Settings
 cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 960)
@@ -19,7 +23,7 @@ ild = ImageLandmarkDetector.ImageLandmarkDetector()
 def run():
     
     # Read the image and detect image landmarks
-    img = cv2.imread('images/obama.jpg')
+    img = cv2.imread(image_file_path)
     img_mp_landmarks, img_landmarks = ild.detectImageLandmarks(img)
 
     # Draw image landmarks on screen
@@ -62,7 +66,7 @@ def run():
         cv2.imshow("Frame Delaunay Visualization", frame_delanuay_visual)
 
         # Do triangle warping and show the results
-        result, substitute_face = Warp.warpTriangles(frame, img, fdtp, idtp, dti, 1)
+        result, substitute_face = Warp.warpTriangles(frame, img, fdtp, idtp, dti, alpha)
         cv2.imshow("Substitute Face", substitute_face)
         cv2.imshow("Result", result)
 
@@ -72,7 +76,7 @@ def run():
 
 # Simple example of face protection module. Other applications can easily use our implementation this way.
 def moduleTest():
-    fm = FaceMorpher.FaceMorpher(cap, 'images/obama.jpg', 1)
+    fm = FaceMorpher.FaceMorpher(cap, image_file_path, alpha)
     while True:
         result = fm.getNextFrame()
         cv2.imshow("Result", result)
