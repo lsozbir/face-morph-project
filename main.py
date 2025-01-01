@@ -9,7 +9,7 @@ import Warp
 import FaceMorpher
 
 # !!!CHANGE THESE TO MODIFY THE INPUTS!!!
-alpha = 0.5
+alpha = 1
 image_file_path = 'images/obama.jpg'
 
 # OpenCV Settings
